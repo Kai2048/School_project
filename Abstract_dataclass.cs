@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 namespace DataLibrary
 {
-    public abstract class DataBase
+    public interface DataBase
     {
         public static List<Kons_Test> Just_Themes = new List<Kons_Test>();                                          // List of only themes                      BASES
         public static Dictionary<string, Kons_Test> ALL = new Dictionary<string, Kons_Test>();                      // List of themes from it's names           BASES
